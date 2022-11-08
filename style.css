@@ -185,6 +185,8 @@ sup{
   background-color: #808080;
   height: 200px;
   display: none;
+  left: 2%;
+  top:28%;
   cursor: move;
   z-index:10;
 }
@@ -200,6 +202,8 @@ sup{
 #divimageOne {
     position: absolute;
     width: 250px;
+    top:15%;
+    right: 10%;
     height: 200px;
     display: none;
     background-color:  #808080;
