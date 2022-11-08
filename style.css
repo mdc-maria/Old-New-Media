@@ -30,7 +30,7 @@ body, html {
   right: 0;
   position: absolute;
   top: 5%;
-  z-index:10;
+  z-index:100;
   display: flex;
   margin-right: 2%;
   flex-direction: column;

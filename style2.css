@@ -8,6 +8,12 @@
   font-family: NeueHass;
   src: url(NeueHaasDisplay-Roman.ttf);
 }
+
+@font-face {
+  font-family: NeueHassMedium;
+  src: url(NeueHaasDisplay-Mediu.ttf);
+}
+
 body, html {
   height: 100%;
   margin: 0;
@@ -74,39 +80,31 @@ h1:hover {
   top: 5%;
   left: 2% ;
   z-index:10;
-  background-color:#808080;
+  background-color:#ffffff;
   }
 
 #div1:hover, #div2:hover, #div3:hover, #div4:hover, #div5:hover, #div6:hover{
-  box-shadow: blue 1px 0 8px;
+  box-shadow: black 4px 0 15px;
 
 }
 
 .mydivheader {
   cursor: move;
-  padding: 5px;
+  padding-top:  8px;
   font-size: 10pt;
-  border-bottom: solid 1px #000000;
-  font-family:NeueHass;
+  font-family:NeueHassMedium;
   text-transform: uppercase;
   text-align: center;
   color: #000000;
 }
 
-#blue{
-  background-color: white;
-}
-
-#gray{
-  background-color:#333333 ;
-  font-size: 10pt;
-}
 
 #button{
   width: 20px;
   height: 20px;
   right: 0;
   top: 0;
+  align-content: center;
   align-items: center;
   position: absolute;
   margin-right:5px;
@@ -141,9 +139,11 @@ h1:hover {
   position: absolute;
   width: 500px;
   height: auto;
+  border: solid 1px white;
   cursor: move;
   z-index:10;
-  background-color:#808080;
+  background-color:#ffffff;
+  border: 0.5pt solid black;
   }
 
  
