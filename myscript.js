@@ -25,6 +25,15 @@ function myFunctionTwo() {
   }
 }
 
+function myFunctionThree() {
+  var x = document.getElementById("divimageThree");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
 
 //Make the DIV element draggagle:
 dragElement(document.getElementById("div1"));
@@ -36,6 +45,7 @@ dragElement(document.getElementById("div6"));
 dragElement(document.getElementById("divimage"));
 dragElement(document.getElementById("divimageOne"));
 dragElement(document.getElementById("divimageTwo"));
+dragElement(document.getElementById("divimageThree"));
 
 
 function dragElement(elmnt) {
