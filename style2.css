@@ -1,0 +1,235 @@
+
+@font-face {
+  font-family: FKRaster;
+  src: url(FKRasterGroteskTrial-Blended.otf);
+}
+
+@font-face {
+  font-family: NeueHass;
+  src: url(NeueHaasDisplay-Roman.ttf);
+}
+body, html {
+  height: 100%;
+  margin: 0;
+
+}
+
+.bgimg-1{
+  background-image: url(background2.png);
+  height: 100%;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -99;
+ }
+
+#contentbar {
+  width: 90px;
+  height: auto;
+  right: 0;
+  position: absolute;
+  top: 5%;
+  z-index:10;
+  display: flex;
+  margin-right: 2%;
+  flex-direction: column;
+
+}
+
+#digitaldream, #digitalnightmare{
+  align-items: center;
+  cursor: pointer;
+  height:auto;
+  z-index:1000000;
+  text-align: center;
+  margin-bottom: 40%;
+  
+}
+
+#icon {
+  width: 60px;
+}
+
+#icon:hover {
+  box-shadow: white 1px 0 10px;
+}
+
+h1{
+  font-size: 10pt;
+  color: #ffffff;
+  cursor:pointer;
+  font-family: FKRaster;
+}
+
+h1:hover {
+  text-shadow: white 1px 0 10px;
+}
+
+#div1 {
+  position: absolute;
+  width: 295px;
+  height: auto;
+  cursor: move;
+  top: 5%;
+  left: 2% ;
+  z-index:10;
+  background-color:#808080;
+  }
+
+#div1:hover, #div2:hover, #div3:hover, #div4:hover, #div5:hover, #div6:hover{
+  box-shadow: blue 1px 0 8px;
+
+}
+
+.mydivheader {
+  cursor: move;
+  padding: 5px;
+  font-size: 10pt;
+  border-bottom: solid 1px #000000;
+  font-family:NeueHass;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+}
+
+#blue{
+  background-color: white;
+}
+
+#gray{
+  background-color:#333333 ;
+  font-size: 10pt;
+}
+
+#button{
+  width: 20px;
+  height: 20px;
+  right: 0;
+  top: 0;
+  align-items: center;
+  position: absolute;
+  margin-right:5px;
+  margin-top: 6px;
+ 
+}
+
+#mydivtext{
+  background-color: #ffffff;
+  display: flex;
+  
+
+}
+
+.text{
+  margin-right: 20px;
+  margin-left: 20px;
+  font-family: NeueHass;
+  color: #000000;
+  text-align: left;
+}
+
+#text-10{
+  font-size: 10pt; 
+}
+
+#text-13{
+  font-size: 13pt; 
+}
+
+#div2, #div3, #div4, #div5, #div6 {
+  position: absolute;
+  width: 500px;
+  height: auto;
+  cursor: move;
+  z-index:10;
+  background-color:#808080;
+  }
+
+ 
+  #div2{
+  top:15%;
+  left:15% ;
+}
+
+#div3 {
+  left:30%;
+  top:28%;
+}
+
+#div4 {
+  right:20%;
+  top:40%;
+}
+
+#div5 {
+  left:20%;
+  top:50%;
+}
+
+#div6 {
+  right:15%;
+  top: 62%;
+}
+
+sup{
+    font-family: FKRaster;
+    font-size: 6pt;
+    color: blue;
+}
+
+#divimage {
+  position: absolute;
+  width: 250px;
+  background-color: #808080;
+  height: 200px;
+  display: none;
+  cursor: move;
+  z-index:10;
+}
+
+#mydivimage{
+  background-image: url(img_1.jpeg);
+  width:100%;
+  height:100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#divimageOne {
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    display: none;
+    background-color:  #808080;
+    cursor: move;
+    z-index:10;
+}
+
+#mydivimageOne{
+    background-image: url(img_2.jpg);
+    width:100%;
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+  
+button {
+padding: 0;
+border: none;
+background: none;
+font-family:FKRaster;
+text-decoration :underline;
+color: blue;
+}
+
+button:hover{
+  opacity: 0.5;
+}
+
+#caption{
+  font-family: NeueHass;
+  color: #ffffff;
+  font-size: 8pt ;
+}
