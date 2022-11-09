@@ -231,8 +231,8 @@ sup{
   border: 0.5pt solid black;
   width: 250px;
   height: 200px;
-  top: 55%;
-  left:80%;
+  top: 56%;
+  left:78%;
   display: none;
   background-color:#808080;
   cursor: move;
@@ -252,6 +252,8 @@ sup{
   border: 0.5pt solid black;
   width: 250px;
   height: 200px;
+  top: 56%;
+  left: 30%;
   display: none;
   background-color:#808080;
   cursor: move;
