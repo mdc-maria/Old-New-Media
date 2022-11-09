@@ -17,6 +17,7 @@
 body, html {
   height: 100%;
   margin: 0;
+  
 
 }
 
@@ -75,6 +76,7 @@ h1:hover {
 #div1 {
   position: absolute;
   width: 295px;
+  border: 0.5pt solid black;
   height: auto;
   cursor: move;
   top: 5%;
@@ -91,8 +93,10 @@ h1:hover {
 .mydivheader {
   cursor: move;
   padding-top:  8px;
+  padding-bottom: 8px;
+  background-color: #e5e5e5;
   font-size: 10pt;
-  font-family:NeueHassMedium;
+  font-family:FKRaster;
   text-transform: uppercase;
   text-align: center;
   color: #000000;
@@ -181,19 +185,21 @@ sup{
 #divimage {
   position: absolute;
   width: 250px;
-  background-color: #808080;
   height: 200px;
+  border: 0.5pt solid black;
+  background-color: white;
   display: none;
   cursor: move;
   z-index:10;
 }
 
 #mydivimage{
-  background-image: url(img_1.jpeg);
+  background-image: url(img_5.jpg);
   width:100%;
   height:100%;
+  border: 0.5pt solid black;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
 }
 
 #divimageOne {
@@ -201,17 +207,35 @@ sup{
     width: 250px;
     height: 200px;
     display: none;
-    background-color:  #808080;
+    background-color:#808080;
     cursor: move;
     z-index:10;
 }
 
 #mydivimageOne{
-    background-image: url(img_2.jpg);
+    background-image: url(img_6.jpg);
     width:100%;
     height:100%;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#divimageTwo {
+  position: absolute;
+  width: 250px;
+  height: 200px;
+  display: none;
+  background-color:#808080;
+  cursor: move;
+  z-index:10;
+}
+
+#mydivimageTwo{
+  background-image: url(img_7.jpeg);
+  width:100%;
+  height:100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
   
@@ -231,5 +255,7 @@ button:hover{
 #caption{
   font-family: NeueHass;
   color: #ffffff;
-  font-size: 8pt ;
+  font-size: 9pt ;
 }
+
+

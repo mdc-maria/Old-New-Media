@@ -1,0 +1,182 @@
+
+@font-face {
+  font-family: FKRaster;
+  src: url(FKRasterGroteskTrial-Blended.otf);
+}
+
+@font-face {
+  font-family: NeueHass;
+  src: url(NeueHaasDisplay-Roman.ttf);
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  
+
+}
+
+.bgimg-1{
+  background-image: url(gradient.png);
+  height: 100%;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -99;
+ }
+
+#contentbar {
+  width: 90px;
+  height: auto;
+  right: 0;
+  position: absolute;
+  top: 5%;
+  z-index:100;
+  display: flex;
+  margin-right: 2%;
+  flex-direction: column;
+
+}
+
+#digitaldream, #digitalnightmare{
+  align-items: center;
+  cursor: pointer;
+  height:auto;
+  z-index:1000000;
+  text-align: center;
+  margin-bottom: 40%;
+  
+}
+
+#icon {
+  width: 60px;
+}
+
+#icon:hover {
+  box-shadow: blue 1px 0 10px;
+}
+
+h1{
+  font-size: 10pt;
+  color: #ffffff;
+  cursor:pointer;
+  font-family: FKRaster;
+}
+
+#div1 {
+  position: absolute;
+  width: 295px;
+  height: auto;
+  cursor: move;
+  top: 5%;
+  left: 2% ;
+  z-index:10;
+  background-color:#808080;
+  }
+
+#div1:hover, #div2:hover, #div3:hover{
+  box-shadow: blue 1px 0 8px;
+
+}
+
+.mydivheader {
+  cursor: move;
+  padding: 5px;
+  font-size: 10pt;
+  background-color:#ffffff ;
+font-family:FKRaster;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+}
+
+.mydivheader2 {
+  cursor: move;
+  margin: 2px;
+  background-color: blue;
+  padding: 5px;
+  font-size: 10pt;
+  font-family:FKRaster;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+
+.mydivheader3 {
+  cursor: move;
+  padding-top:  8px;
+  padding-bottom: 8px;
+  background-color: #e5e5e5;
+  font-size: 10pt;
+  font-family:FKRaster;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+}
+
+
+#button{
+  width: 20px;
+  height: 20px;
+  right: 0;
+  top: 0;
+  align-items: center;
+  position: absolute;
+  margin-right:5px;
+  margin-top: 6px;
+  
+}
+
+.buttonbackground{
+  background-color: #808080; 
+}
+
+#mydivtext{
+  background-color: #ffffff;
+  display: flex;
+}
+
+.text{
+  margin-right: 20px;
+  margin-left: 20px;
+  font-family: NeueHass;
+  color: #000000;
+  text-align: left;
+}
+
+#text-10{
+  font-size: 10pt; 
+}
+
+#text-13{
+  font-size: 13pt; 
+}
+
+#div2, #div3{
+  position: absolute;
+  width: 500px;
+  height: auto;
+  cursor: move;
+  z-index:10;
+  background-color:#808080;
+}
+
+ 
+#div2{
+  top:35%;
+  left:25% ;
+}
+
+#div3 {
+  right:25%;
+  top:45%;
+}
+
+sup{
+    font-family: FKRaster;
+    font-size: 6pt;
+    color: blue;
+}
+
+
+
