@@ -151,7 +151,7 @@ h1:hover {
   }
 
  
-  #div2{
+#div2{
   top:15%;
   left:15% ;
 }
@@ -210,6 +210,8 @@ sup{
     border: 0.5pt solid black;
     width: 250px;
     height: 200px;
+    top: 5%;
+    right:15%;
     display: none;
     background-color:#808080;
     cursor: move;
