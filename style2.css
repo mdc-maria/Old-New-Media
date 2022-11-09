@@ -22,7 +22,7 @@ body, html {
 }
 
 .bgimg-1{
-  background-image: url(background2.png);
+  background-image: url(background\ -\ cópia.png);
   height: 100%;
   position: relative;
   background-position: center;
@@ -231,6 +231,8 @@ sup{
   border: 0.5pt solid black;
   width: 250px;
   height: 200px;
+  top: 55%;
+  left:80%;
   display: none;
   background-color:#808080;
   cursor: move;
