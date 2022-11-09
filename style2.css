@@ -184,7 +184,10 @@ sup{
 
 #divimage {
   position: absolute;
+  border: 0.5pt solid black;
   width: 250px;
+  top: 35%;
+  left:2%;
   height: 200px;
   border: 0.5pt solid black;
   background-color: white;
@@ -204,6 +207,7 @@ sup{
 
 #divimageOne {
     position: absolute;
+    border: 0.5pt solid black;
     width: 250px;
     height: 200px;
     display: none;
@@ -222,6 +226,7 @@ sup{
 
 #divimageTwo {
   position: absolute;
+  border: 0.5pt solid black;
   width: 250px;
   height: 200px;
   display: none;
@@ -240,6 +245,7 @@ sup{
 
 #divimageThree {
   position: absolute;
+  border: 0.5pt solid black;
   width: 250px;
   height: 200px;
   display: none;
